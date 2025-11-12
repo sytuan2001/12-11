@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<script>
+    let userName = prompt('tên của bạn','');
+    if (userName == 'Admin') {
+        let pass = prompt('nhập mật khẩu','');
+        if (pass == 'TheMaster') {
+            document.write('Welcome');
+        } else if (pass = null) {
+            document.write('canceled');
+        } else {
+            document.write('pass sai');
+        }
+    } else if (userName = null) {
+        document.write('canceled');
+    } else {
+        document.write('k nhận giá trị nào');
+    }
+
+</script>
+</body>
+</html>
